@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3604F031F0F5EEC00C9F19C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F021F0F5EEC00C9F19C /* main.m */; };
+		A3604F061F0F5EED00C9F19C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F051F0F5EED00C9F19C /* AppDelegate.m */; };
+		A3604F0C1F0F5EED00C9F19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3604F0A1F0F5EED00C9F19C /* Main.storyboard */; };
+		A3604F0E1F0F5EED00C9F19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3604F0D1F0F5EED00C9F19C /* Assets.xcassets */; };
+		A3604F111F0F5EED00C9F19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3604F0F1F0F5EED00C9F19C /* LaunchScreen.storyboard */; };
+		A3604F1C1F0F665400C9F19C /* FSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F1B1F0F665400C9F19C /* FSMainViewController.m */; };
+		A3604F221F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F211F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3604EFE1F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSAutoAdjust-cellHeightDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3604F021F0F5EEC00C9F19C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3604F041F0F5EED00C9F19C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3604F051F0F5EED00C9F19C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3604F0B1F0F5EED00C9F19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3604F0D1F0F5EED00C9F19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3604F101F0F5EED00C9F19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3604F121F0F5EED00C9F19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3604F1A1F0F665400C9F19C /* FSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMainViewController.h; sourceTree = "<group>"; };
+		A3604F1B1F0F665400C9F19C /* FSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMainViewController.m; sourceTree = "<group>"; };
+		A3604F201F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FSAutoCountHeight.h"; sourceTree = "<group>"; };
+		A3604F211F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FSAutoCountHeight.m"; sourceTree = "<group>"; };
+		A3604F241F0F7E6800C9F19C /* FSCellCommenDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCellCommenDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3604EFB1F0F5EEC00C9F19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3604EF51F0F5EEC00C9F19C = {
+			isa = PBXGroup;
+			children = (
+				A3604F001F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo */,
+				A3604EFF1F0F5EEC00C9F19C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3604EFF1F0F5EEC00C9F19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3604EFE1F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3604F001F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A3604F181F0F5F6B00C9F19C /* FSAutoAdjust-cellHeightLib */,
+				A3604F041F0F5EED00C9F19C /* AppDelegate.h */,
+				A3604F051F0F5EED00C9F19C /* AppDelegate.m */,
+				A3604F1A1F0F665400C9F19C /* FSMainViewController.h */,
+				A3604F1B1F0F665400C9F19C /* FSMainViewController.m */,
+				A3604F0A1F0F5EED00C9F19C /* Main.storyboard */,
+				A3604F0D1F0F5EED00C9F19C /* Assets.xcassets */,
+				A3604F0F1F0F5EED00C9F19C /* LaunchScreen.storyboard */,
+				A3604F121F0F5EED00C9F19C /* Info.plist */,
+				A3604F011F0F5EEC00C9F19C /* Supporting Files */,
+			);
+			path = "FSAutoAdjust-cellHeightDemo";
+			sourceTree = "<group>";
+		};
+		A3604F011F0F5EEC00C9F19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3604F021F0F5EEC00C9F19C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3604F181F0F5F6B00C9F19C /* FSAutoAdjust-cellHeightLib */ = {
+			isa = PBXGroup;
+			children = (
+				A3604F241F0F7E6800C9F19C /* FSCellCommenDefine.h */,
+				A3604F201F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.h */,
+				A3604F211F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m */,
+			);
+			path = "FSAutoAdjust-cellHeightLib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3604EFD1F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3604F151F0F5EED00C9F19C /* Build configuration list for PBXNativeTarget "FSAutoAdjust-cellHeightDemo" */;
+			buildPhases = (
+				A3604EFA1F0F5EEC00C9F19C /* Sources */,
+				A3604EFB1F0F5EEC00C9F19C /* Frameworks */,
+				A3604EFC1F0F5EEC00C9F19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FSAutoAdjust-cellHeightDemo";
+			productName = "FSAutoAdjust-cellHeightDemo";
+			productReference = A3604EFE1F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3604EF61F0F5EEC00C9F19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shunFSKi;
+				TargetAttributes = {
+					A3604EFD1F0F5EEC00C9F19C = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = PFKU76D5EU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3604EF91F0F5EEC00C9F19C /* Build configuration list for PBXProject "FSAutoAdjust-cellHeightDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3604EF51F0F5EEC00C9F19C;
+			productRefGroup = A3604EFF1F0F5EEC00C9F19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3604EFD1F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3604EFC1F0F5EEC00C9F19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3604F111F0F5EED00C9F19C /* LaunchScreen.storyboard in Resources */,
+				A3604F0E1F0F5EED00C9F19C /* Assets.xcassets in Resources */,
+				A3604F0C1F0F5EED00C9F19C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3604EFA1F0F5EEC00C9F19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3604F061F0F5EED00C9F19C /* AppDelegate.m in Sources */,
+				A3604F1C1F0F665400C9F19C /* FSMainViewController.m in Sources */,
+				A3604F221F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m in Sources */,
+				A3604F031F0F5EEC00C9F19C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3604F0A1F0F5EED00C9F19C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3604F0B1F0F5EED00C9F19C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3604F0F1F0F5EED00C9F19C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3604F101F0F5EED00C9F19C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3604F131F0F5EED00C9F19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3604F141F0F5EED00C9F19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3604F161F0F5EED00C9F19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PFKU76D5EU;
+				INFOPLIST_FILE = "FSAutoAdjust-cellHeightDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengshun.FSAutoAdjust-cellHeightDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3604F171F0F5EED00C9F19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PFKU76D5EU;
+				INFOPLIST_FILE = "FSAutoAdjust-cellHeightDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fengshun.FSAutoAdjust-cellHeightDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3604EF91F0F5EEC00C9F19C /* Build configuration list for PBXProject "FSAutoAdjust-cellHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3604F131F0F5EED00C9F19C /* Debug */,
+				A3604F141F0F5EED00C9F19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3604F151F0F5EED00C9F19C /* Build configuration list for PBXNativeTarget "FSAutoAdjust-cellHeightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3604F161F0F5EED00C9F19C /* Debug */,
+				A3604F171F0F5EED00C9F19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3604EF61F0F5EEC00C9F19C /* Project object */;
+}
