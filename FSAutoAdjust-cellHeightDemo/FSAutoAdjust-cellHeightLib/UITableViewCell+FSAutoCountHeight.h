@@ -10,4 +10,6 @@
 
 @interface UITableViewCell (FSAutoCountHeightCell)
 
++ (CGFloat)FSCellHeightForTableView:(UITableView *)tableView indexPath:(NSIndexPath *)indexPath cellContentViewWidth:(CGFloat)contentViewWidth;
+
 @end

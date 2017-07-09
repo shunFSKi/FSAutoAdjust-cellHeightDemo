@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FSMainViewController.h"
+#import <JPFPSStatus.h>
 
 @interface AppDelegate ()
 
@@ -23,6 +24,9 @@
     self.window.rootViewController = nav;
     [self initUIAppearance];
     [self.window makeKeyAndVisible];
+#if defined(DEBUG)||defined(_DEBUG)
+    [[JPFPSStatus sharedInstance] open];
+#endif
     return YES;
 }
 

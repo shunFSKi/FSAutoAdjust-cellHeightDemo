@@ -6,6 +6,8 @@
 
 #define ScreenScale ([[UIScreen mainScreen] scale])
 
+#define randomColor [UIColor colorWithRed:(arc4random() % 25)/255.0 green:(arc4random() % 255)/255.0 blue:(arc4random() % 255)/255.0 alpha:1];
+
 #pragma mark - 方法-C对象、结构操作
 
 /**

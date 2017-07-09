@@ -9,19 +9,26 @@
 #import "UITableViewCell+FSAutoCountHeight.h"
 #import "FSCellCommenDefine.h"
 @interface UITableView (FSAutoCountHeight)
+@property (nonatomic, strong) NSMutableArray *cacheArr;
 @end
 @implementation UITableView (FSAutoCountHeight)
-
-+ (void)load
+- (void)setCacheArr:(NSMutableArray *)cacheArr
 {
-    
+    objc_setAssociatedObject(self, @selector(cacheArr), cacheArr, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (NSMutableArray *)cacheArr
+{
+    return objc_getAssociatedObject(self, _cmd);
 }
 @end
+
 
 @implementation UITableViewCell (FSAutoCountHeightCell)
 
 + (CGFloat)FSCellHeightForTableView:(UITableView *)tableView indexPath:(NSIndexPath *)indexPath cellContentViewWidth:(CGFloat)contentViewWidth
 {
+    
     UITableViewCell *cell = [tableView.dataSource tableView:tableView cellForRowAtIndexPath:indexPath];
     if (contentViewWidth == 0) {
         [tableView layoutIfNeeded];

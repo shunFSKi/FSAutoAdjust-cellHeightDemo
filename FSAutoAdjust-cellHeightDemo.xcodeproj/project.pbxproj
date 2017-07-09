@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37DE4DAF8206DAFE02280DE3 /* libPods-FSAutoAdjust-cellHeightDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9A2B6C54F325B2B3E79573 /* libPods-FSAutoAdjust-cellHeightDemo.a */; };
 		A3604F031F0F5EEC00C9F19C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F021F0F5EEC00C9F19C /* main.m */; };
 		A3604F061F0F5EED00C9F19C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F051F0F5EED00C9F19C /* AppDelegate.m */; };
 		A3604F0C1F0F5EED00C9F19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3604F0A1F0F5EED00C9F19C /* Main.storyboard */; };
@@ -14,9 +15,14 @@
 		A3604F111F0F5EED00C9F19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3604F0F1F0F5EED00C9F19C /* LaunchScreen.storyboard */; };
 		A3604F1C1F0F665400C9F19C /* FSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F1B1F0F665400C9F19C /* FSMainViewController.m */; };
 		A3604F221F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F211F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m */; };
+		F00DD2971F113B1900AA5B15 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F00DD2961F113B1900AA5B15 /* data.json */; };
+		F09D0D9E1F11E4AB00943A9D /* FSTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F09D0D9D1F11E4AB00943A9D /* FSTestTableViewCell.m */; };
+		F09D0DA11F11F03100943A9D /* FDFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F09D0DA01F11F03100943A9D /* FDFeedEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		708AEA4D1D4470774EFC19F6 /* Pods-FSAutoAdjust-cellHeightDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSAutoAdjust-cellHeightDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSAutoAdjust-cellHeightDemo/Pods-FSAutoAdjust-cellHeightDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8A9A2B6C54F325B2B3E79573 /* libPods-FSAutoAdjust-cellHeightDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSAutoAdjust-cellHeightDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3604EFE1F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FSAutoAdjust-cellHeightDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3604F021F0F5EEC00C9F19C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3604F041F0F5EED00C9F19C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,6 +36,12 @@
 		A3604F201F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FSAutoCountHeight.h"; sourceTree = "<group>"; };
 		A3604F211F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FSAutoCountHeight.m"; sourceTree = "<group>"; };
 		A3604F241F0F7E6800C9F19C /* FSCellCommenDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCellCommenDefine.h; sourceTree = "<group>"; };
+		A7F65CB57AE061C24BA816C0 /* Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSAutoAdjust-cellHeightDemo/Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F00DD2961F113B1900AA5B15 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F09D0D9C1F11E4AB00943A9D /* FSTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTestTableViewCell.h; sourceTree = "<group>"; };
+		F09D0D9D1F11E4AB00943A9D /* FSTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTestTableViewCell.m; sourceTree = "<group>"; };
+		F09D0D9F1F11F03100943A9D /* FDFeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedEntity.h; sourceTree = "<group>"; };
+		F09D0DA01F11F03100943A9D /* FDFeedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFeedEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DE4DAF8206DAFE02280DE3 /* libPods-FSAutoAdjust-cellHeightDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D901A66F8423E9C7C9FC2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				708AEA4D1D4470774EFC19F6 /* Pods-FSAutoAdjust-cellHeightDemo.debug.xcconfig */,
+				A7F65CB57AE061C24BA816C0 /* Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82FF98F15024C8EBBBAD84CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A9A2B6C54F325B2B3E79573 /* libPods-FSAutoAdjust-cellHeightDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3604EF51F0F5EEC00C9F19C = {
 			isa = PBXGroup;
 			children = (
 				A3604F001F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo */,
 				A3604EFF1F0F5EEC00C9F19C /* Products */,
+				22D901A66F8423E9C7C9FC2C /* Pods */,
+				82FF98F15024C8EBBBAD84CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,11 +94,16 @@
 		A3604F001F0F5EEC00C9F19C /* FSAutoAdjust-cellHeightDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F00DD2961F113B1900AA5B15 /* data.json */,
 				A3604F181F0F5F6B00C9F19C /* FSAutoAdjust-cellHeightLib */,
 				A3604F041F0F5EED00C9F19C /* AppDelegate.h */,
 				A3604F051F0F5EED00C9F19C /* AppDelegate.m */,
 				A3604F1A1F0F665400C9F19C /* FSMainViewController.h */,
 				A3604F1B1F0F665400C9F19C /* FSMainViewController.m */,
+				F09D0D9C1F11E4AB00943A9D /* FSTestTableViewCell.h */,
+				F09D0D9D1F11E4AB00943A9D /* FSTestTableViewCell.m */,
+				F09D0D9F1F11F03100943A9D /* FDFeedEntity.h */,
+				F09D0DA01F11F03100943A9D /* FDFeedEntity.m */,
 				A3604F0A1F0F5EED00C9F19C /* Main.storyboard */,
 				A3604F0D1F0F5EED00C9F19C /* Assets.xcassets */,
 				A3604F0F1F0F5EED00C9F19C /* LaunchScreen.storyboard */,
@@ -101,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3604F151F0F5EED00C9F19C /* Build configuration list for PBXNativeTarget "FSAutoAdjust-cellHeightDemo" */;
 			buildPhases = (
+				69D3419D387D32AD733C4ECC /* [CP] Check Pods Manifest.lock */,
 				A3604EFA1F0F5EEC00C9F19C /* Sources */,
 				A3604EFB1F0F5EEC00C9F19C /* Frameworks */,
 				A3604EFC1F0F5EEC00C9F19C /* Resources */,
+				3F0235A3427E4700257577DC /* [CP] Embed Pods Frameworks */,
+				0214FFB2F2E793D2B223B44E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,7 +166,7 @@
 				TargetAttributes = {
 					A3604EFD1F0F5EEC00C9F19C = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = PFKU76D5EU;
+						DevelopmentTeam = P5NAKU59Y6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,10 +197,59 @@
 				A3604F111F0F5EED00C9F19C /* LaunchScreen.storyboard in Resources */,
 				A3604F0E1F0F5EED00C9F19C /* Assets.xcassets in Resources */,
 				A3604F0C1F0F5EED00C9F19C /* Main.storyboard in Resources */,
+				F00DD2971F113B1900AA5B15 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0214FFB2F2E793D2B223B44E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSAutoAdjust-cellHeightDemo/Pods-FSAutoAdjust-cellHeightDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0235A3427E4700257577DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSAutoAdjust-cellHeightDemo/Pods-FSAutoAdjust-cellHeightDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69D3419D387D32AD733C4ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3604EFA1F0F5EEC00C9F19C /* Sources */ = {
@@ -168,8 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3604F061F0F5EED00C9F19C /* AppDelegate.m in Sources */,
+				F09D0D9E1F11E4AB00943A9D /* FSTestTableViewCell.m in Sources */,
 				A3604F1C1F0F665400C9F19C /* FSMainViewController.m in Sources */,
 				A3604F221F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m in Sources */,
+				F09D0DA11F11F03100943A9D /* FDFeedEntity.m in Sources */,
 				A3604F031F0F5EEC00C9F19C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,9 +379,10 @@
 		};
 		A3604F161F0F5EED00C9F19C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708AEA4D1D4470774EFC19F6 /* Pods-FSAutoAdjust-cellHeightDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PFKU76D5EU;
+				DEVELOPMENT_TEAM = P5NAKU59Y6;
 				INFOPLIST_FILE = "FSAutoAdjust-cellHeightDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -301,9 +393,10 @@
 		};
 		A3604F171F0F5EED00C9F19C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F65CB57AE061C24BA816C0 /* Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PFKU76D5EU;
+				DEVELOPMENT_TEAM = P5NAKU59Y6;
 				INFOPLIST_FILE = "FSAutoAdjust-cellHeightDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -331,6 +424,7 @@
 				A3604F171F0F5EED00C9F19C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,21 @@
+PODS:
+  - JPFPSStatus (0.1)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - JPFPSStatus (~> 0.1)
+  - Masonry
+  - MJExtension
+  - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  JPFPSStatus: 4467a17488382e4c1700bd9d18c92ae581fd6305
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+
+PODFILE CHECKSUM: ca49fa90534bc6159e6667d8317e64fab4270d97
+
+COCOAPODS: 1.2.0
