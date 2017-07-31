@@ -1,14 +1,14 @@
 //
-//  FDFeedEntity.m
-//  Demo
+//  FSEntity.m
+//  FSAutoAdjust-cellHeightDemo
 //
-//  Created by sunnyxx on 15/4/16.
-//  Copyright (c) 2015年 forkingdog. All rights reserved.
+//  Created by 冯顺 on 2017/7/31.
+//  Copyright © 2017年 shunFSKi. All rights reserved.
 //
 
-#import "FDFeedEntity.h"
+#import "FSEntity.h"
 
-@implementation FDFeedEntity
+@implementation FSEntity
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary
 {

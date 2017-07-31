@@ -1,15 +1,14 @@
 //
-//  FDFeedEntity.h
-//  Demo
+//  FSEntity.h
+//  FSAutoAdjust-cellHeightDemo
 //
-//  Created by sunnyxx on 15/4/16.
-//  Copyright (c) 2015年 forkingdog. All rights reserved.
+//  Created by 冯顺 on 2017/7/31.
+//  Copyright © 2017年 shunFSKi. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface FDFeedEntity : NSObject
-
+@interface FSEntity : NSObject
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @property (nonatomic, copy, readonly) NSString *identifier;
@@ -18,5 +17,4 @@
 @property (nonatomic, copy, readonly) NSString *username;
 @property (nonatomic, copy, readonly) NSString *time;
 @property (nonatomic, copy, readonly) NSString *imageName;
-
 @end

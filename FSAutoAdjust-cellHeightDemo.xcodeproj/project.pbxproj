@@ -16,8 +16,9 @@
 		A3604F1C1F0F665400C9F19C /* FSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F1B1F0F665400C9F19C /* FSMainViewController.m */; };
 		A3604F221F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = A3604F211F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m */; };
 		F00DD2971F113B1900AA5B15 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F00DD2961F113B1900AA5B15 /* data.json */; };
+		F0287EA41F2F268A00417CFA /* FSEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F0287EA31F2F268A00417CFA /* FSEntity.m */; };
+		F0287EA71F2F301B00417CFA /* FSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0287EA61F2F301B00417CFA /* FSViewController.m */; };
 		F09D0D9E1F11E4AB00943A9D /* FSTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F09D0D9D1F11E4AB00943A9D /* FSTestTableViewCell.m */; };
-		F09D0DA11F11F03100943A9D /* FDFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F09D0DA01F11F03100943A9D /* FDFeedEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +39,12 @@
 		A3604F241F0F7E6800C9F19C /* FSCellCommenDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCellCommenDefine.h; sourceTree = "<group>"; };
 		A7F65CB57AE061C24BA816C0 /* Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSAutoAdjust-cellHeightDemo/Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F00DD2961F113B1900AA5B15 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F0287EA21F2F268A00417CFA /* FSEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSEntity.h; sourceTree = "<group>"; };
+		F0287EA31F2F268A00417CFA /* FSEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSEntity.m; sourceTree = "<group>"; };
+		F0287EA51F2F301B00417CFA /* FSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSViewController.h; sourceTree = "<group>"; };
+		F0287EA61F2F301B00417CFA /* FSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSViewController.m; sourceTree = "<group>"; };
 		F09D0D9C1F11E4AB00943A9D /* FSTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTestTableViewCell.h; sourceTree = "<group>"; };
 		F09D0D9D1F11E4AB00943A9D /* FSTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTestTableViewCell.m; sourceTree = "<group>"; };
-		F09D0D9F1F11F03100943A9D /* FDFeedEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFeedEntity.h; sourceTree = "<group>"; };
-		F09D0DA01F11F03100943A9D /* FDFeedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFeedEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +101,14 @@
 				A3604F181F0F5F6B00C9F19C /* FSAutoAdjust-cellHeightLib */,
 				A3604F041F0F5EED00C9F19C /* AppDelegate.h */,
 				A3604F051F0F5EED00C9F19C /* AppDelegate.m */,
+				F0287EA51F2F301B00417CFA /* FSViewController.h */,
+				F0287EA61F2F301B00417CFA /* FSViewController.m */,
 				A3604F1A1F0F665400C9F19C /* FSMainViewController.h */,
 				A3604F1B1F0F665400C9F19C /* FSMainViewController.m */,
 				F09D0D9C1F11E4AB00943A9D /* FSTestTableViewCell.h */,
 				F09D0D9D1F11E4AB00943A9D /* FSTestTableViewCell.m */,
-				F09D0D9F1F11F03100943A9D /* FDFeedEntity.h */,
-				F09D0DA01F11F03100943A9D /* FDFeedEntity.m */,
+				F0287EA21F2F268A00417CFA /* FSEntity.h */,
+				F0287EA31F2F268A00417CFA /* FSEntity.m */,
 				A3604F0A1F0F5EED00C9F19C /* Main.storyboard */,
 				A3604F0D1F0F5EED00C9F19C /* Assets.xcassets */,
 				A3604F0F1F0F5EED00C9F19C /* LaunchScreen.storyboard */,
@@ -260,8 +265,9 @@
 				F09D0D9E1F11E4AB00943A9D /* FSTestTableViewCell.m in Sources */,
 				A3604F1C1F0F665400C9F19C /* FSMainViewController.m in Sources */,
 				A3604F221F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m in Sources */,
-				F09D0DA11F11F03100943A9D /* FDFeedEntity.m in Sources */,
+				F0287EA41F2F268A00417CFA /* FSEntity.m in Sources */,
 				A3604F031F0F5EEC00C9F19C /* main.m in Sources */,
+				F0287EA71F2F301B00417CFA /* FSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

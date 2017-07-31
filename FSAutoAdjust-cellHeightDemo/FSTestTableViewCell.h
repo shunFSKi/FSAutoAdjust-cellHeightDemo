@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Masonry.h>
-#import "FDFeedEntity.h"
+#import "FSEntity.h"
 #import "FSCellCommenDefine.h"
 
 @interface FSTestTableViewCell : UITableViewCell
@@ -18,5 +18,7 @@
 @property (nonatomic, strong) UILabel *nameLab;
 @property (nonatomic, strong) UILabel *timeLab;
 
-@property (nonatomic, strong) FDFeedEntity *entity;
+@property (nonatomic, strong) FSEntity *entity;
+
+@property (nonatomic, assign) BOOL isDebug;
 @end

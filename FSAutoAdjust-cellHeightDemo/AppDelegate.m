@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "FSMainViewController.h"
+#import "FSViewController.h"
 #import <JPFPSStatus.h>
 
 @interface AppDelegate ()
@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    FSMainViewController *mainVC = [[FSMainViewController alloc]init];
+    FSViewController *mainVC = [[FSViewController alloc]init];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:mainVC];
     self.window.rootViewController = nav;
     [self initUIAppearance];
