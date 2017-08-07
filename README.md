@@ -28,7 +28,7 @@ cell行高自适应，一句代码搞定需求，丝滑般顺畅的滚动体验
 ## How To Use
 1、将demo中的`FSAutoAdjust-cellHeightLib`拖入项目中导入`#import "UITableViewCell+FSAutoCountHeight.h"`；
 
-2、后续支持cocoapods，静候佳音；
+2、cocoapods：`pod search FSAutoAdjust-cellHeight` 如果找不到执行`pod setup` 后 `pod 'FSAutoAdjust-cellHeight'`
 ```objc
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -39,6 +39,9 @@ cell行高自适应，一句代码搞定需求，丝滑般顺畅的滚动体验
 ```
 详细请下载demo查看
 ## Document
-writing...
+~~文档正在努力编写中。。。~~
 
-文档正在努力编写中。。。
+文章地址：[http://www.jianshu.com/p/16a67c58c8c4](http://www.jianshu.com/p/16a67c58c8c4)
+
+## Version
+1.0.2 ——>添加cocoapods支持 2017.8.7
