@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint FSAutoAdjust-cellHeight.podspec' to ensure this is a
+#  Be sure to run `pod spec lint FSAutoAdjustCellHeight.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "FSAutoAdjust-cellHeight"
-  s.version      = "1.0.2"
-  s.summary      = "auto-cellHeight."
+  s.name         = "FSAutoAdjustCellHeight"
+  s.version      = "0.0.1"
+  s.summary      = "A short description of FSAutoAdjustCellHeight."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,9 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   cell行高自适应，一句代码搞定需求，丝滑般顺畅的滚动体验，使用方便原理简单
                    DESC
 
-  s.homepage     = "https://github.com/shunFSKi/FSAutoAdjust-cellHeightDemo"
+  s.homepage     = "http://EXAMPLE/FSAutoAdjustCellHeight"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
+  s.license      = "MIT (example)"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "fengshun" => "fengshun_ios@126.com" }
+  s.author             = { "冯顺" => "" }
   # Or just: s.author    = "冯顺"
   # s.authors            = { "冯顺" => "" }
   # s.social_media_url   = "http://twitter.com/冯顺"
@@ -65,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/shunFSKi/FSAutoAdjust-cellHeightDemo.git", :tag => "#{1.0.2}" }
+  s.source       = { :git => "http://EXAMPLE/FSAutoAdjustCellHeight.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FSScrollContentViewLib", "FSScrollContentViewLib/**/*.{h,m}"
-  # s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
