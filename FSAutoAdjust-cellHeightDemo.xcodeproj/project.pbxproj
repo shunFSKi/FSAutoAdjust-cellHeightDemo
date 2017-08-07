@@ -36,7 +36,6 @@
 		A3604F1B1F0F665400C9F19C /* FSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMainViewController.m; sourceTree = "<group>"; };
 		A3604F201F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FSAutoCountHeight.h"; sourceTree = "<group>"; };
 		A3604F211F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FSAutoCountHeight.m"; sourceTree = "<group>"; };
-		A3604F241F0F7E6800C9F19C /* FSCellCommenDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCellCommenDefine.h; sourceTree = "<group>"; };
 		A7F65CB57AE061C24BA816C0 /* Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSAutoAdjust-cellHeightDemo/Pods-FSAutoAdjust-cellHeightDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F00DD2961F113B1900AA5B15 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		F0287EA21F2F268A00417CFA /* FSEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSEntity.h; sourceTree = "<group>"; };
@@ -129,7 +128,6 @@
 		A3604F181F0F5F6B00C9F19C /* FSAutoAdjust-cellHeightLib */ = {
 			isa = PBXGroup;
 			children = (
-				A3604F241F0F7E6800C9F19C /* FSCellCommenDefine.h */,
 				A3604F201F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.h */,
 				A3604F211F0F717D00C9F19C /* UITableViewCell+FSAutoCountHeight.m */,
 			);

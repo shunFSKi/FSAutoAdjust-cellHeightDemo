@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <Masonry.h>
 #import "FSEntity.h"
-#import "FSCellCommenDefine.h"
 
 @interface FSTestTableViewCell : UITableViewCell
 @property (nonatomic, strong) UILabel *titleLab;

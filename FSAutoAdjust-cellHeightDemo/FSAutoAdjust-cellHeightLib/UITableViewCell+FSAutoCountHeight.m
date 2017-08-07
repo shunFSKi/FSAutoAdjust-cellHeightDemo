@@ -7,7 +7,38 @@
 //
 
 #import "UITableViewCell+FSAutoCountHeight.h"
-#import "FSCellCommenDefine.h"
+#import <objc/runtime.h>
+#define ScreenScale ([[UIScreen mainScreen] scale])
+
+CG_INLINE CGFloat
+flatSpecificScale(CGFloat floatValue, CGFloat scale) {
+    scale = scale == 0 ? ScreenScale : scale;
+    CGFloat flattedValue = ceil(floatValue * scale) / scale;
+    return flattedValue;
+}
+
+CG_INLINE CGFloat
+flat(CGFloat floatValue) {
+    return flatSpecificScale(floatValue, 0);
+}
+
+CG_INLINE CGRect
+CGRectSetWidth(CGRect rect, CGFloat width) {
+    rect.size.width = flat(width);
+    return rect;
+}
+
+CG_INLINE void
+ReplaceMethod(Class _class, SEL _originSelector, SEL _newSelector) {
+    Method oriMethod = class_getInstanceMethod(_class, _originSelector);
+    Method newMethod = class_getInstanceMethod(_class, _newSelector);
+    BOOL isAddedMethod = class_addMethod(_class, _originSelector, method_getImplementation(newMethod), method_getTypeEncoding(newMethod));
+    if (isAddedMethod) {
+        class_replaceMethod(_class, _newSelector, method_getImplementation(oriMethod), method_getTypeEncoding(oriMethod));
+    } else {
+        method_exchangeImplementations(oriMethod, newMethod);
+    }
+}
 
 @interface UITableView (FSAutoCountHeight)
 @property (nonatomic, strong) NSMutableDictionary *keyCacheDic_Portrait;
