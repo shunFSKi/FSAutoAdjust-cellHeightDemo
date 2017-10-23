@@ -1,4 +1,6 @@
 # FSAutoAdjust-cellHeightDemo
+![badge-languages](https://img.shields.io/badge/language-ObjC-orange.svg) [![CocoaPods](https://img.shields.io/cocoapods/p/FSAutoAdjust-cellHeight.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/v/FSAutoAdjust-cellHeight.svg)](https://cocoapods.org/?q=FSAutoAdjust-cellHeight) [![CocoaPods](https://img.shields.io/cocoapods/dt/FSAutoAdjust-cellHeight.svg)](https://cocoapods.org/?q=FSAutoAdjust-cellHeight) [![CocoaPods](https://img.shields.io/cocoapods/l/FSAutoAdjust-cellHeight.svg)]()
+
 cell行高自适应，一句代码搞定需求，丝滑般顺畅的滚动体验
 ## API
 支持两种缓存方式
